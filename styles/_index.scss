@@ -1,0 +1,10 @@
+$header-color: #224535;
+$nav-color: #2B5844;
+
+
+.container{
+    display: grid;
+    grid-template-columns: [gutter-start] minmax(6rem, 1fr) repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) minmax(6rem, 1fr) [gutter-end];
+    
+}
+

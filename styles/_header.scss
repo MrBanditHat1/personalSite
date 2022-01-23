@@ -1,0 +1,102 @@
+.header{
+    background-color: #205673;
+    z-index: 200;
+    grid-row: 2/3;
+    grid-column: gutter-start/gutter-end;
+    height: 99vh;
+    display: grid;
+    grid-template-columns: repeat(8, [col-start] minmax(min-content, 1fr) [col-end]);
+    grid-template-rows: repeat(8, 1fr);
+    
+
+
+    &__textFormat{
+        height: 100%;
+        font-family: 'Amiri', serif;
+        background-color: #205673;
+        grid-column: col-start/col-end 5;
+        grid-row: 1/-1;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+
+        &__cellOne{
+            grid-row: 1/2;
+            grid-column: 1/2;
+            display: flex;
+            margin-right: -10%;
+            justify-content: center;
+            align-items: center;
+            animation: moveInLeft 2s ease-out .5s;
+            animation-fill-mode: backwards;
+            z-index: 100;
+            
+        }
+        &__cellTwo{
+            grid-row: 2/3;
+            grid-column: 2/3;
+            margin-left: -50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: moveInLeft 2s ease-out .75s;
+            animation-fill-mode: backwards;
+            z-index: 100;
+        }
+        &__cellThree{
+            grid-row: 3/4;
+            grid-column: 3/4;
+            margin-left: -60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: moveInLeft 2s ease-out 1s;
+            animation-fill-mode: backwards;
+            z-index: 100;
+        }
+
+        &__cellFour{
+            grid-row: 4/5;
+            grid-column: 4/5;
+            margin-left: -60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: moveInLeft 4s ease-out 3.5s;
+            animation-fill-mode: backwards;
+            z-index: 100;
+        }
+        
+
+    }
+
+    @keyframes moveInLeft{
+        0%{
+          opacity: 0;
+          transform: translateX(-1rem);
+        }
+      
+       
+      
+        100%{
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      
+
+
+
+
+
+    &__picture{
+        background-image: url('../public/header_photo.svg') ;
+        background-repeat: no-repeat;
+        grid-column: 1/-1;
+        grid-row: 1/-1;
+        z-index: 0;
+        border: none;
+        border-style: hidden;
+       
+    }
+}
