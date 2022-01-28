@@ -50,7 +50,7 @@ function Home(){
 
                         Thank you very much for taking the time to view my site! My name is Christian and I am a
                         self-taught developer that has a passion for STEM, and enjoy combat sports. If there is anything that I have learned
-                        about myself from such sports, it's that no matter how tired I have been, or how many times I've been knocked down; I
+                        about myself from such sports, it's that no matter how tired I am, or how many times I get knocked down; I
                         always get up and am never discouraged. I have the same philosophy when it comes to problem solving, and learning anything in general.
                         No matter how difficult something is, I will always push through it and resolve the issue. 
 
@@ -97,7 +97,7 @@ function Home(){
 
                     <div className = {`${styles.card__side} ${styles.card__side__sideBack}`}>
                         <p className = {styles.card__side__sideBack__paragraph}>
-                            I love messing around with design tools, and although it's not something I am not an expert on, I enjoy spending time
+                            I love messing around with design tools, and although it's not something I am an expert on, I enjoy spending time
                             on learning how to use them because they are incredibly important for the user experience. This personal site was
                             actually made using these design tools and I had a blast doing it!
                         </p>
@@ -128,7 +128,7 @@ function Home(){
                     <div className = {`${styles.card__side} ${styles.card__side__sideBack}`}>
                         <p className = {styles.card__side__sideBack__paragraph}>
                             when I was first learning about HTML and CSS the most notable thing to me was the seperation of concerns, a concept
-                            that allows for the organization of code. As in CSS, javascript, and HTML code should be kept in seperate files; so 
+                            that calls for the organization of code. As in CSS, javascript, and HTML code should be kept in seperate files; so 
                             when I was first introduced to react and JSX my mind was blown! I've really enjoyed working within the react library 
                             and have gotten used it, allowing me to pick up some skills such as redux along the way. This personal site was created 
                             using these tools!
@@ -159,8 +159,8 @@ function Home(){
 
                     <div className = {`${styles.card__side} ${styles.card__side__sideBack}`}>
                         <p className = {styles.card__side__sideBack__paragraph}>
-                            In my journey of learning how to code, I kind of stood away from back-end technologies because to be honest, I was scared of them.
-                            I was always putting node.Js and databases in the backburner because of this reason; after a friend of mine encouraged me to 
+                            In my journey of learning how to code, I kind of stood away from back-end technologies because I was scared of them.
+                            I was always putting node.Js and databases on the backburner because of this reason; after a friend of mine encouraged me to 
                             explore it more however, I absolutely fell in love with it. I tend to focus more on front-end stuff because I have a certain ounce
                             of paranoia in thinking that the a site will be useless if the user experience is not up to par. Personally however, I would 
                             like to specialize on back-end technologies and focus more on that in the near future. 
